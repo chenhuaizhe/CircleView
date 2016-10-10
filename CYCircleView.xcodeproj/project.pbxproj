@@ -13,6 +13,8 @@
 		011DC5D91DAA79030060A2DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011DC5D71DAA79030060A2DB /* Main.storyboard */; };
 		011DC5DB1DAA79030060A2DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011DC5DA1DAA79030060A2DB /* Assets.xcassets */; };
 		011DC5DE1DAA79030060A2DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011DC5DC1DAA79030060A2DB /* LaunchScreen.storyboard */; };
+		011DC5E71DAA79200060A2DB /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 011DC5E61DAA79200060A2DB /* CircleView.m */; };
+		011DC5F01DAB337D0060A2DB /* CircleView+Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = 011DC5EE1DAB337D0060A2DB /* CircleView+Configuration.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		011DC5DA1DAA79030060A2DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		011DC5DD1DAA79030060A2DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		011DC5DF1DAA79030060A2DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		011DC5E51DAA79200060A2DB /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		011DC5E61DAA79200060A2DB /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		011DC5EE1DAB337D0060A2DB /* CircleView+Configuration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CircleView+Configuration.m"; sourceTree = "<group>"; };
+		011DC5EF1DAB337D0060A2DB /* CircleView+Configuration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CircleView+Configuration.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				011DC5D21DAA79030060A2DB /* AppDelegate.m */,
 				011DC5D41DAA79030060A2DB /* ViewController.h */,
 				011DC5D51DAA79030060A2DB /* ViewController.m */,
+				011DC5E51DAA79200060A2DB /* CircleView.h */,
+				011DC5E61DAA79200060A2DB /* CircleView.m */,
+				011DC5EE1DAB337D0060A2DB /* CircleView+Configuration.m */,
+				011DC5EF1DAB337D0060A2DB /* CircleView+Configuration.h */,
 				011DC5D71DAA79030060A2DB /* Main.storyboard */,
 				011DC5DA1DAA79030060A2DB /* Assets.xcassets */,
 				011DC5DC1DAA79030060A2DB /* LaunchScreen.storyboard */,
@@ -151,6 +161,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				011DC5F01DAB337D0060A2DB /* CircleView+Configuration.m in Sources */,
+				011DC5E71DAA79200060A2DB /* CircleView.m in Sources */,
 				011DC5D61DAA79030060A2DB /* ViewController.m in Sources */,
 				011DC5D31DAA79030060A2DB /* AppDelegate.m in Sources */,
 				011DC5D01DAA79030060A2DB /* main.m in Sources */,
